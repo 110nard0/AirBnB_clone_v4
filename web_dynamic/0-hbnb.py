@@ -25,8 +25,8 @@ def hbnb():
     """ Display a webpage for the AirBnB clone """
     states = storage.all(State).values()
     states = sorted(states, key=lambda k: k.name)
-    st_ct = []
 
+    st_ct = []
     for state in states:
         st_ct.append([state, sorted(state.cities, key=lambda k: k.name)])
 
@@ -36,9 +36,11 @@ def hbnb():
     places = storage.all(Place).values()
     places = sorted(places, key=lambda k: k.name)
 
+    cache_id = uuid.uuid4()
+
     return render_template('0-hbnb.html',
                            states=st_ct, amenities=amenities,
-                           places=places, cache_id=uuid.uuid4())
+                           places=places, cache_id=cache_id)
 
 
 if __name__ == "__main__":
