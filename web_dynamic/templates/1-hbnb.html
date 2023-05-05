@@ -2,16 +2,17 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="../static/styles/4-common.css">
-    <link rel="stylesheet" type="text/css" href="../static/styles/3-header.css">
-    <link rel="stylesheet" type="text/css" href="../static/styles/3-footer.css">
-    <link rel="stylesheet" type="text/css" href="../static/styles/6-filters.css">
-    <link type="text/css" rel="stylesheet" href="../static/styles/8-places.css">
+    <link rel="stylesheet" type="text/css" href="../static/styles/4-common.css"?{{ cache_id }}>
+    <link rel="stylesheet" type="text/css" href="../static/styles/3-header.css"?{{ cache_id }}>
+    <link rel="stylesheet" type="text/css" href="../static/styles/3-footer.css"?{{ cache_id }}>
+    <link rel="stylesheet" type="text/css" href="../static/styles/6-filters.css"?{{ cache_id }}>
+    <link type="text/css" rel="stylesheet" href="../static/styles/8-places.css"?{{ cache_id }}>
     <link rel="icon" href="../static/images/icon.png" />
     <title>HBnB</title>
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-	<script src="static/scripts/1-hbnb.js"></script>
+	<script src="static/scripts/1-hbnb.js?{{ cache_id }}"></script>
   </head>
+
   <body>
     <header>
       <div class="logo"></div>
@@ -53,10 +54,9 @@
       </section>
 
       <div class="placesh1">
-	      <h1>Places</h1>
+        <h1>Places</h1>
       </div>
       <section class="places">
-	<!-- <h1>Places</h1> -->
 	{% for place in places %}
 	<article>
 	  <div class="title_box">
