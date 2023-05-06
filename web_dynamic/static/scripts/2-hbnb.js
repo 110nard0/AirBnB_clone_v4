@@ -15,12 +15,12 @@ $(document).ready(function () {
     $('div.amenities h4').text(amenitiesList);
   });
  
-  $.getJSON('http://0.0.0.0:5001/api/v1/status/',
-    function (data) {
-      if (data.status === 'OK') {
-        $('div#api_status').addClass('available');
-      } else {
-        $('div#api_status').removeClass('available');
-      }
-    });
+  // get API status
+  $.getJSON('http://0.0.0.0:5001/api/v1/status/', (data) => {
+    if (data.status === 'OK') {
+      $('div#api_status').addClass('available');
+    } else {
+      $('div#api_status').removeClass('available');
+    }
+  });
 });
