@@ -16,8 +16,7 @@ $(document).ready(function () {
   });
 
   // get api status
-  // $.getJSON('http://0.0.0.0:5001/api/v1/status/', (data) => {
-  $.getJSON('http://127.0.0.1:5001/api/v1/status/', (data) => {
+  $.getJSON('http://0.0.0.0:5001/api/v1/status/', (data) => {
     if (data.status === 'OK') {
       $('div#api_status').addClass('available');
     } else {
@@ -27,8 +26,7 @@ $(document).ready(function () {
 
   // fetch places through api request
   $.post({
-    // url: 'http://0.0.0.0:5001/api/v1/places_search',
-    url: 'http://127.0.0.1:5001/api/v1/places_search',
+    url: 'http://0.0.0.0:5001/api/v1/places_search',
     data: JSON.stringify({}),
     contentType: 'application/json',
     success: (data) => {
@@ -56,8 +54,7 @@ $(document).ready(function () {
   $('button').on('click', () => {
     const amenityIDList = Object.values(amenities);
     $.post({
-      // url: 'http://0.0.0.0:5001/api/v1/places_search',
-      url: 'http://127.0.0.1:5001/api/v1/places_search',
+      url: 'http://0.0.0.0:5001/api/v1/places_search',
       data: JSON.stringify({ amenities: amenityIDList }),
       contentType: 'application/json',
       success: (data) => {
