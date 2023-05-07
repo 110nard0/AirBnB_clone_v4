@@ -8,7 +8,7 @@ header {
 .logo {
     background-image: url("../images/logo.png");
     background-repeat: no-repeat;
-    background position: 20px 50%;
+    background-position: 20px 50%;
 }
 
 #api_status {
