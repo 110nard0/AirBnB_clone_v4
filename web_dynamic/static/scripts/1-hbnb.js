@@ -11,7 +11,7 @@ $(document).ready(function () {
       delete amenities[amenityName];
     }
 
-    const amenitiesList = Object.keys(amenities).sort().join(", ");
-    $(".amenities h4").text(amenitiesList);
+    const amenitiesList = Object.keys(amenities).sort().join(', ');
+    $('.amenities h4').text(amenitiesList);
   });
 });

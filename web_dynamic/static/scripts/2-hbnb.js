@@ -14,7 +14,7 @@ $(document).ready(function () {
     const amenitiesList = Object.keys(amenities).sort().join(', ');
     $('div.amenities h4').text(amenitiesList);
   });
- 
+
   // get API status
   $.getJSON('http://0.0.0.0:5001/api/v1/status/', (data) => {
     if (data.status === 'OK') {
