@@ -73,7 +73,7 @@ button:hover {
     max-height: 300px;
 }
 
-.popover::-webkit-scrollbar{
+.popover::-webkit-scrollbar {
     width: 0px;
 }
 
@@ -83,7 +83,7 @@ button:hover {
     margin-top: 0%;
 }
 
-.amenities .popover ul{
+.amenities .popover ul {
     margin: 0px;
 }
 
@@ -97,16 +97,21 @@ button:hover {
     padding-left: 10px;
 }
 
-.popover ul li{
+.popover ul li {
     padding: 4px;
     padding-left: 10px;
 }
 
-.popover input{
-    padding-right: 10px;
+.locations .popover input {
+    margin-right: 10px;
 }
 
-.popover ul h2{
+.amenities .popover input {
+    margin-right: 7px;
+}
+
+.popover ul h2 {
+    display: inline;
     margin-top: 1.5%;
     margin-bottom: 5%;
     margin-left: 0px;
