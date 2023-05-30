@@ -7,13 +7,6 @@
     margin-bottom: 8%;
 }
 
-@media only screen and (max-width: 920px) {
-    .places {
-        display: flex;
-        flex-wrap: wrap;
-    }
-}
-
 .placesh1 h1 {
     width: 100%;
     margin-right: 400px;
@@ -100,4 +93,11 @@
 
 .user {
     margin-bottom: 1.5%;
+}
+
+@media only screen and (max-width: 920px) {
+    .places {
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
