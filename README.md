@@ -154,13 +154,21 @@ EOF  all  create  destroy  help  quit  show  update
 No known bugs at this time. 
 
 ## Authors
+First part of AirBnB:  
 Alexa Orrico - [Github](https://github.com/alexaorrico) / [Twitter](https://twitter.com/alexa_orrico)  
 Jennifer Huang - [Github](https://github.com/jhuang10123) / [Twitter](https://twitter.com/earthtojhuang)  
-Jhoan Zamora - [Github](https://github.com/jzamora5) / [Twitter](https://twitter.com/JhoanZamora10)  
-David Ovalle - [Github](https://github.com/Nukemenonai) / [Twitter](https://twitter.com/disartDave)
-Agu Obunadike - [Github](https://github.com/110nard0) / [Twitter](https://twitter.com/110nard0)
-Oluchukwu Haidome [Github](https://github.com/Obihai)/ [Twitter](https://twitter.com)
+  
+Second part of Airbnb:  
+Joann Vuong - [Github](https://github.com/jvpupcat)
 
-Second part of Airbnb: Joann Vuong
+Third part of Airbnb:  
+Jhoan Zamora - [Github](https://github.com/jzamora5) / [Twitter](https://twitter.com/JhoanZamora10)  
+David Ovalle - [Github](https://github.com/Nukemenonai) / [Twitter](https://twitter.com/disartDave)  
+  
+Fourth part of Airbnb:  
+Agu Obunadike - [Github](https://github.com/110nard0) / [Twitter](https://twitter.com/110nard0)  
+Oluchukwu Haidome - [Github](https://github.com/Obihai)
+  
+
 ## License
-Public Domain. No copy write protection. 
+Public Domain. No copyright protection.
